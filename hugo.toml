@@ -29,7 +29,7 @@ buildExpired = false
 
   [params.homeInfoParams]
     Title = "🌏 ElephantMilitary"
-    Content = "全球军事动态追踪 · 专业 · 客观 · 中立 · 每小时更新 | 友站：[ElephantFlow 技术博客](https://elephantflow.github.io/)"
+    Content = "全球军事动态追踪 · 专业 · 客观 · 中立 · 每小时更新"
 
   [[params.socialIcons]]
     name = "github"
@@ -51,6 +51,11 @@ buildExpired = false
     name = "归档"
     url = "/archives/"
     weight = 30
+  [[menu.main]]
+    identifier = "friends"
+    name = "友链"
+    url = "/friends/"
+    weight = 35
   [[menu.main]]
     identifier = "about"
     name = "关于"
