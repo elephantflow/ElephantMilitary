@@ -29,7 +29,7 @@ buildExpired = false
 
   [params.homeInfoParams]
     Title = "🌏 ElephantMilitary"
-    Content = "全球军事动态追踪 · 专业 · 客观 · 中立 · 每小时更新"
+    Content = "全球军事动态追踪 · 专业 · 客观 · 中立 · 每小时更新 | 友站：[ElephantFlow 技术博客](https://elephantflow.github.io/)"
 
   [[params.socialIcons]]
     name = "github"
