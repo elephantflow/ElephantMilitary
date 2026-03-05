@@ -1,0 +1,66 @@
+baseURL = "https://elephantflow.github.io/ElephantMilitary/"
+languageCode = "zh-CN"
+title = "ElephantMilitary · 全球军事动态"
+theme = "PaperMod"
+defaultContentLanguage = "zh"
+hasCJKLanguage = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[pagination]
+  pagerSize = 20
+
+[params]
+  env = "production"
+  title = "ElephantMilitary"
+  description = "全球军事资讯追踪 · 每小时更新"
+  author = "ElephantMilitary"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = false
+  ShowWordCount = true
+  showtoc = true
+  tocopen = true
+
+  [params.homeInfoParams]
+    Title = "🌏 ElephantMilitary"
+    Content = "全球军事动态追踪 · 专业 · 客观 · 中立 · 每小时更新"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/elephantflow/ElephantMilitary"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "资讯"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 20
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 30
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 40
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  country = "countries"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
